@@ -1148,7 +1148,8 @@
 	maximum-speed = "high-speed";
 
 	/* Force to peripheral until we can switch modes */
-	dr_mode = "peripheral";
+	//dr_mode = "peripheral";
+	dr_mode = "host";
 };
 
 &wifi {
